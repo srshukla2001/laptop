@@ -46,7 +46,6 @@ export default function Home() {
     >
       <Scene currentSection={currentSection} />
 
-      {/* HERO (WHITE – ZIGZAG) */}
       <section
         ref={(el) => (sectionRefs.current[0] = el)}
         style={{
@@ -104,7 +103,6 @@ export default function Home() {
         <div style={{ flex: 1 }} />
       </section>
 
-      {/* ABOUT (BLACK – DOTS) */}
       <section
         ref={(el) => (sectionRefs.current[1] = el)}
         style={{
@@ -139,7 +137,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACT (WHITE – TRIANGLES) */}
       <section
         ref={(el) => (sectionRefs.current[2] = el)}
         style={{
@@ -181,7 +178,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* DOT NAV */}
       <div
         style={{
           position: 'fixed',
